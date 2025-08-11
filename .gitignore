@@ -1,0 +1,17 @@
+# Dependências e autogerados
+node_modules/
+/generated/prisma
+/runtime/*
+!/runtime/schema.prisma
+package-lock.json
+
+# Ambiente
+.env
+
+# Sistemas/IDEs
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
