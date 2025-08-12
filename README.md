@@ -12,6 +12,16 @@ Faz parte do projeto full-stack de cadastro e listagem de usuários.
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb)
 
 
+## 🔄 Fluxo da Aplicação
+
+```mermaid
+graph TD
+    A[Frontend React] -->|Envia dados| B[API Node.js]
+    B -->|Armazena| C[(MongoDB)]
+    C -->|Retorna| B
+    B -->|Responde| A
+```
+
 ## ⚙️ Funcionalidades
 
 - Criar usuários
